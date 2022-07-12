@@ -10,11 +10,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Ndas {
+public class S21G0201 {
+	
+	@XmlElement(name="s21_g02_01_01")
+	private final String s21g020101;
+	
+	@XmlElement(name="s21_g02_01_02")
+	private final String s21g020102;
+	
+	@XmlElement(name="s21_g02_01_03")
+	private final float s21G020103;
 
-	@XmlElement(name="s21_g01")
-	private final S21G01 s21g01;
-
-	@XmlElement(name="s21_g02")
-	private final S21G02 s21g02;
 }

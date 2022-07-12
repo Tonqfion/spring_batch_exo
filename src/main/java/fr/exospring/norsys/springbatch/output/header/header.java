@@ -1,4 +1,4 @@
-package fr.exospring.norsys.springbatch.input.entities;
+package fr.exospring.norsys.springbatch.output.header;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -10,11 +10,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Ndas {
-
-	@XmlElement(name="s21_g01")
-	private final S21G01 s21g01;
-
-	@XmlElement(name="s21_g02")
-	private final S21G02 s21g02;
+public class header {
+	
+	@XmlElement(name="id")
+	private String id;
+	
+	@XmlElement(name="usager")
+	private Usager usager;
 }
