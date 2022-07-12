@@ -5,12 +5,12 @@ import org.springframework.batch.item.NonTransientResourceException;
 import org.springframework.batch.item.ParseException;
 import org.springframework.batch.item.UnexpectedInputException;
 
-import fr.exospring.norsys.springbatch.input.entities.Ndas;
+import fr.exospring.norsys.springbatch.output.TreatmentEntity;
 
-public class Reader implements ItemReader<Ndas> {
+public class Reader implements ItemReader<TreatmentEntity> {
 
 	@Override
-	public Ndas read() throws Exception, UnexpectedInputException, ParseException, NonTransientResourceException {
+	public TreatmentEntity read() throws Exception, UnexpectedInputException, ParseException, NonTransientResourceException {
 		// TODO Auto-generated method stub
 		return null;
 	}

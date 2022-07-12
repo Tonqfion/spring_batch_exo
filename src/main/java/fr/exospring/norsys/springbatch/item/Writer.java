@@ -4,14 +4,15 @@ import java.util.List;
 
 import org.springframework.batch.item.ItemWriter;
 
-import fr.exospring.norsys.springbatch.output.Output;
+import fr.exospring.norsys.springbatch.output.TreatmentEntity;
 
-public class Writer implements ItemWriter<Output>{
+public class Writer implements ItemWriter<TreatmentEntity>{
 
 	@Override
-	public void write(List<? extends Output> items) throws Exception {
+	public void write(List<? extends TreatmentEntity> items) throws Exception {
 		// TODO Auto-generated method stub
 		
 	}
+
 
 }
