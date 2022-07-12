@@ -13,8 +13,8 @@ import lombok.Setter;
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
 public class S21G02 {
-	
-	@XmlElement(name="s21_g02_01")
-	private final List<S21G0201> s21g0201;
+
+	@XmlElement(name = "s21_g02_01")
+	private List<S21G0201> s21g0201;
 
 }

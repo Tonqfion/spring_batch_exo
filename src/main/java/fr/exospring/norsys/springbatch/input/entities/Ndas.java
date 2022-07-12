@@ -12,9 +12,9 @@ import lombok.Setter;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Ndas {
 
-	@XmlElement(name="s21_g01")
-	private final S21G01 s21g01;
+	@XmlElement(name = "s21_g01")
+	private S21G01 s21g01;
 
-	@XmlElement(name="s21_g02")
-	private final S21G02 s21g02;
+	@XmlElement(name = "s21_g02")
+	private S21G02 s21g02;
 }

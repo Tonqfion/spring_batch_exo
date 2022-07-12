@@ -1,4 +1,4 @@
-package fr.exospring.norsys.springbatch.output.header;
+package fr.exospring.norsys.springbatch.output.entete;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

@@ -1,7 +1,7 @@
-package fr.exospring.norsys.springbatch;
+package fr.exospring.norsys.springbatch.output;
 
 import fr.exospring.norsys.springbatch.output.dsij.Dsij;
-import fr.exospring.norsys.springbatch.output.header.Header;
+import fr.exospring.norsys.springbatch.output.entete.Entete;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,5 +9,5 @@ import lombok.Setter;
 @Setter
 public class Output {
 	private Dsij dsij;
-	private Header header;
+	private Entete header;
 }
