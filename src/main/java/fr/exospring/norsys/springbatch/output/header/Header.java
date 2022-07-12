@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
-public class header {
+public class Header {
 	
 	@XmlElement(name="id")
 	private String id;
